@@ -1,0 +1,308 @@
+#preloader{
+    background: white url("preloader\ gif.gif") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    background-size: 40%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Navigation Bar start
+   ========================================================================== */
+header nav ul li { 
+    color:#F4FFC3;
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+header nav ul li a {
+    color:#F4FFC3;
+}
+
+nav{
+    text-align: center;
+    font-size: large;
+}
+
+
+nav ul { 
+    background-color:#5D8736;
+    border-style:solid;
+    border-width: 5px;
+    border-radius:100px;
+    border-color: #5D8736;
+    padding: 10px;
+  }
+/* ==========================================================================
+   Navigation Bar end
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Home Page start
+   ========================================================================== */
+
+#map{
+    float:inline-start;
+}
+
+#home_pic{
+    height: 300px;
+    width: 500px;
+    padding:10px;
+    margin:10px;
+}
+
+.text_home{
+    color:#F4FFC3;
+    text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.grid-container {
+  height: 100vh; 
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  background-image: url('https://www.woodlandtrust.org.uk/media/3901/cedar-large-old-tree-in-park-alamy-dgjtkm-imagebroker.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.content-area {
+  grid-column: 1; 
+  z-index: 2;
+  position: relative;
+  padding: 50px;
+  color: #fff;
+}
+
+/* ==========================================================================
+   Home Page end
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   About Page start
+   ========================================================================== */
+
+.about_pics{
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin:10px;
+    float: left;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+
+.grid-container1 {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 55% 1fr;
+  background-image: url('https://www.lebanoninapicture.com/pages/landscape-view-green-south-lebanon-follow-me-trees-like/landscape-view-green-south-lebanon-follow-me-tr-11-22-2017-7-11-15-am-m.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left-overlay1 {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.content-area1 {
+  grid-column: 1; 
+  z-index: 2;
+  position: relative;
+  padding: 50px;
+  color: #fff;
+}
+
+
+/* ==========================================================================
+  About Page end
+   ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   Culture Page start
+   ========================================================================== */
+
+#culture_pics{
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    float: right;
+}
+
+.container_culture{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image_text_culture{
+    width:30%;
+    float:left;
+    text-align: center;
+}
+
+#culture_body{
+     background-image: linear-gradient(to right, #A9C46C,#809D3C);
+}
+
+.culture_paragraph{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:justify;
+
+}
+/* ==========================================================================
+   Culture Page end
+   ========================================================================== */
+
+
+
+
+/* ==========================================================================
+   Tourism Page start
+   ========================================================================== */
+
+.tourism_pics {
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+}
+
+.container_tourism{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.image_text_tourism{
+    width:30%;
+    float:left;
+    text-align: center;
+}
+
+#tourism_body{
+     background-image: linear-gradient(to right, #A9C46C,#809D3C)
+}
+/* ==========================================================================
+   Tourism Page end
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Food Page start
+   ========================================================================== */
+.food_pic{
+    height: 400px;
+    width: 400px;
+    border-radius:10px;
+    border-color: black;
+    border-style:inset;
+    border-width: 4px;
+}
+
+.container_of_food{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.image_text_food{
+    width:30%;
+    float:left;
+    text-align: center;
+}
+
+#food_body{
+    background-image: linear-gradient(to right, #A9C46C,#809D3C);
+}
+ /* ==========================================================================
+Food Page end
+========================================================================== */
+
+
+
+
+
+
+/* ==========================================================================
+   Headings and li
+   ========================================================================== */
+h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px black
+}
+
+h4{
+    font-size:20px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+}
+
+section ul li {
+    font-size: 20px;
+    text-align:justify;
+    list-style-type:decimal;
+}
+/* ==========================================================================
+   Headings and li
+   ========================================================================== */
+
+
+
+
+
